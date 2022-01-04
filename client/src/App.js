@@ -2,8 +2,6 @@ import React, { Component, useEffect, useReducer, useState } from "react";
 import FruitshopContract from "./contracts/Fruitshop.json";
 import getWeb3 from "./getWeb3";
 
-import "./App.css";
-
 const App = () => {
 
   const [myApple,setMyApple] = useState(0);
